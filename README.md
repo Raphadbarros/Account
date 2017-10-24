@@ -103,7 +103,7 @@ Projeto conta e transações Java.
 **Aguarde o retorno do código 201**:
 
 ---
-### **Visualizar uma conta**
+### **Visualizar uma transações**
 #### GET /transacoes/{id} 
 **Retorna uma transacão cadastrada**
 > 
@@ -120,7 +120,7 @@ Projeto conta e transações Java.
         
 ```
 ---
-### **Busca Todas as contas**
+### **Busca todas as transações**
 #### GET /transacoes   
 **Retorna todos os as contas cadastradas**
 > 
@@ -136,7 +136,7 @@ Projeto conta e transações Java.
 ```
 
 ---
-### **Alterar última localização de caminhoneiro**
+### **Realiza o Estorno**
 #### POST /transacoes 
 **Realiza o Estorno da Transação conforme informações no body**
 ```json
