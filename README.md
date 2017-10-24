@@ -16,7 +16,7 @@ Projeto conta e transações Java.
 
 ## Configurações do ambiente
 * Java 
-* Marven
+* Maven
 * Banco de dados: H2
 
 
