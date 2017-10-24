@@ -87,7 +87,7 @@ Projeto conta e transações Java.
 ----
 # Documentação da API de Transações
 
-## Criar conta
+## Criar trasação
 #### **POST /transacoes** 
 
 * ###### HTTP/1.1 201 Created
