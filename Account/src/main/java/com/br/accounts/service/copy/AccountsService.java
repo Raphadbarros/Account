@@ -37,7 +37,10 @@ public class AccountsService {
 
 	
 	public void add(Accounts consulta) {
-		consultareposi.add(consulta);
+	      if (consulta.getSituacao() ==0){
+		  consulta.setSituacao(1);
+		  consulta.setDataCreat(new Date());
+		}
+		  consultareposi.add(consulta);
 	}
-
 }
